@@ -10,16 +10,16 @@ using Xamarin.Forms;
 
 namespace Kelompok26.View
 {
-	public class HalamanTambahData : ContentPage
-	{
+    public class HalamanTambahData : ContentPage
+    {
         private Entry _nama;
         private Entry _jurusan;
         private Button _simpan;
 
         string _dbPath = Path.Combine(System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal), "myDB.db4");
 
-        public HalamanTambahData ()
-		{
+        public HalamanTambahData()
+        {
             this.Title = "Tambah Data Mahasiswa";
 
             StackLayout stackLayout = new StackLayout();
@@ -62,5 +62,5 @@ namespace Kelompok26.View
             await DisplayAlert(null, "Data " + dbm.Nama + " Berhasil Disimpan", "Ok");
             await Navigation.PopAsync();
         }
-	}
+    }
 }
