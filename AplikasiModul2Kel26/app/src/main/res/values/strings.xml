@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Sekipz26</string>
+    <string name="tittle">PRAKTIKUM MDP KELOMPOK 26</string>
+    <string name="regtittle">REGISTRASI DATA</string>
+    <string name="user">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Masuk</string>
+    <string name="register">Register</string>
+    <string name="logout">Logout</string>
+    <string name="Header">Selamat datang Di Praktikum MDP 2018</string>
+    <string name="name">Nama Kamu</string>
+    <string name="description">Selamat kamu telah sukses login di aplikasi ini</string>
+</resources>
